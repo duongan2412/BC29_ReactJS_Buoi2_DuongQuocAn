@@ -1,0 +1,47 @@
+.products {
+    cursor: pointer;
+}
+
+.model_item {
+    background-image: url("./../../../public/img/model.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+.model_item img {
+    position: absolute;
+    top: 28%;
+    left: 22%;
+    width: 159px;
+    height: 50px;
+    opacity: 0.9;
+}
+
+.model_item .glasses_info {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.glasses_info p {
+    margin: 0;
+
+}
+
+.glasses_info p:first-of-type {
+    color: navy;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.glasses_info p:last-of-type {
+    color: #fff;
+    font-size: 13px;
+    margin-left: 15px;
+}
